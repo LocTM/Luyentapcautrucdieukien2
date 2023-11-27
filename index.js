@@ -18,3 +18,12 @@
 // }
 // cal();
 // console.log(`Số feet tương ứng là: ` + result)
+
+//tính diện tích hình vuông
+let a = +prompt("Nhập vào độ dài cạnh a: ");
+function calS(){
+    a = a * a;
+    return a;
+}
+calS(a);
+console.log("Diện tích hình vuông là " + a)
